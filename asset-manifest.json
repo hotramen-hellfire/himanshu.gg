@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/himanshu.gg/static/css/main.c6c7b547.css",
-    "main.js": "/himanshu.gg/static/js/main.85a2d2a3.js",
+    "main.js": "/himanshu.gg/static/js/main.308f1d63.js",
     "static/js/787.b78a12d2.chunk.js": "/himanshu.gg/static/js/787.b78a12d2.chunk.js",
     "static/media/vector-abstract-lines-pattern-waves-2386132.jpg": "/himanshu.gg/static/media/vector-abstract-lines-pattern-waves-2386132.29da22a6ebff02e8ca4e.jpg",
     "static/media/ShadowsIntoLight-Regular.ttf": "/himanshu.gg/static/media/ShadowsIntoLight-Regular.e8c09384ff0643bf385d.ttf",
@@ -9,11 +9,11 @@
     "static/media/adam-warren-pro.bold.ttf": "/himanshu.gg/static/media/adam-warren-pro.bold.4a880b1751ec85aeae63.ttf",
     "index.html": "/himanshu.gg/index.html",
     "main.c6c7b547.css.map": "/himanshu.gg/static/css/main.c6c7b547.css.map",
-    "main.85a2d2a3.js.map": "/himanshu.gg/static/js/main.85a2d2a3.js.map",
+    "main.308f1d63.js.map": "/himanshu.gg/static/js/main.308f1d63.js.map",
     "787.b78a12d2.chunk.js.map": "/himanshu.gg/static/js/787.b78a12d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6c7b547.css",
-    "static/js/main.85a2d2a3.js"
+    "static/js/main.308f1d63.js"
   ]
 }
