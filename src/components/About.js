@@ -106,7 +106,7 @@ const About = () => {
       </div>
       <div class="imagewrap1">
         <div class="item">
-          <div class="polaroid" onMouseEnter={handleHover} onMouseLeave={handleLeave}><img src='https://raw.githubusercontent.com/hotramen-hellfire/themedWebsite/main/pf2.jpeg' alt="didn't load the image maybe next time" />
+          <div class="polaroid" onMouseEnter={handleHover} onMouseLeave={handleLeave}><img src='https://raw.githubusercontent.com/hotramen-hellfire/himanshu.gg/gh-pages/pf2.jpeg' alt="didn't load the image maybe next time" />
             <div class="caption">{captionText}</div>
           </div>
         </div>
