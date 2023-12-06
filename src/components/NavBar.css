@@ -1,0 +1,149 @@
+  @font-face {
+    font-family: Adam;
+    src: url('../assets/fonts/adam-warren-pro.bold.ttf');
+    font-weight: 700;
+  }
+
+
+  li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 10vh;
+    height: 8.333vh;
+    width: 100vw;
+    box-shadow: rgba(50, 50, 93, 0.75) 0 4.167vh 4.167vh -2.778vh;
+    background-color: black;
+    padding-right: 5.556vh;
+    padding-left: 5.556vh;
+    z-index: 2;
+    /* Add border properties for outline */
+    border: 0.278vh solid white;
+    /* You can adjust the width and color */
+    border-radius: 0.278vh;
+    /* Optional: Adds rounded corners */
+  }
+
+
+  .hg-logo {
+    height: 6.944vh;
+    width: 31.25vh;
+    z-index: 2;
+  }
+
+  .logo {
+    font-family: Adam;
+    color: aliceblue;
+    font-size: 5.556vh;
+    z-index: 2;
+  }
+
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    z-index: 2;
+  }
+
+  .navbar .nav-links li {
+    font-family: Adam;
+    margin-right: 1.389vh;
+    color: black;
+    font-size: 2.778vh;
+    padding: 0 1.389vh;
+    margin: 0 1.389vh;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+    z-index: 2;
+  }
+
+  .navbar .nav-links li a {
+    font-family: Adam;
+    text-decoration: none;
+    color: grey;
+    padding: 0.694vh 1.389vh;
+    border-radius: 0.694vh;
+    font-size: 3.472vh;
+    margin: 0 1.389vh;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+    z-index: 2;
+  }
+
+  .navbar .nav-links li a:hover {
+    font-family: Adam;
+    font-size: 4.861vh;
+    background-color: none;
+    z-index: 2;
+  }
+
+  .navbar .nav-links li a.active {
+    font-family: Adam;
+    font-size: 4.167vh;
+    background-color: black;
+    color: #fff;
+    z-index: 2;
+  }
+
+
+
+  .hero {
+    text-align: center;
+    margin-top: 10%;
+    z-index: 2;
+  }
+
+  .hero h1 {
+    text-align: center;
+    font-size: 11.111vh;
+    z-index: 2;
+  }
+
+  button {
+    border: none;
+    background: none;
+    font-size: 2.778vh;
+    z-index: 2;
+  }
+
+  .blob-2 {
+    width: 5.556vh;
+    /* Adjust the width to make it smaller */
+    aspect-ratio: 1;
+    border: 0.694vh solid #0000;
+    /* Adjust border size accordingly */
+    background:
+      radial-gradient(farthest-side, #fff 98%, #0000) 0 0/1.389vh 1.389vh,
+      /* Adjust the size of the radial gradients */
+      radial-gradient(farthest-side, #fff 98%, #0000) 100% 0/1.389vh 1.389vh,
+      radial-gradient(farthest-side, #fff 98%, #0000) 100% 100%/1.389vh 1.389vh,
+      radial-gradient(farthest-side, #fff 98%, #0000) 0 100%/1.389vh 1.389vh,
+      linear-gradient(#000 0 0) center/4.167vh 4.167vh;
+    /* Adjust the size of the linear gradient */
+    background-repeat: no-repeat;
+    filter: blur(0vh) contrast(5);
+    /* Adjust the filter values */
+    animation: b2 0.8s infinite;
+  }
+
+  @keyframes b2 {
+    100% {
+      background-position: 100% 0, 100% 100%, 0 100%, 0 0, center
+    }
+  }

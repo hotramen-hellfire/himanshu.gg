@@ -1,0 +1,6 @@
+This website was made as a hobby project during the summer break with bunch of my friends
+I'll link their sites too when their individual projects complete mostly in the Contact section.
+I started with 0 knowledge of react, I'd done a bit of css and html and infinitesimal bits of javascript, (I didn't 
+like javascript much), then moved onto watching Reactjs tutorials of @mosh and @gorkcoder on youtube, I took me a day to understand how react works
+and took a lot of hellish compilation errors to start. I started with creating the navbar on the second day and took me around 6 hours to be able to create my first component and 
+style it. There onwards just a lot of googling and youtube tutorials helped a lot to get the functionality I wanted...

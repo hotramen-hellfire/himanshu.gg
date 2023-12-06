@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Rubik+Bubbles&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
+}
+
+@font-face {
+  font-family: Adam;
+  src: url('../assets/fonts/adam-warren-pro.bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: hells;
+  src: url('../assets/fonts/ShadowsIntoLight-Regular.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: creeps;
+  src: url('../assets/fonts/Cookie-Regular.ttf');
+  font-weight: 700;
+}
+
+.gomachi {
+  position: absolute;
+  top: 45.833vh;
+  left: 9.722vh;
+  color: white;
+  font-size: 5.556vh;
+  font-family: creeps;
+}
+
+
+.bgmove hellfire {
+  margin: 0;
+  font-size: 38.194vh;
+  word-spacing: -10.417vh;
+  font-family: hells;
+  color: rgba(225, 225, 225, .01);
+  background-image: url("../assets/img/vector-abstract-lines-pattern-waves-2386132.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  animation: animate 60s ease-in-out infinite;
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-weight: 1000;
+  z-index: 50000;
+}
+
+
+.homebody {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #000;
+  color: aliceblue;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: #000;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+section .air {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 13.889vh;
+  background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  background-size: 138.889vh 13.889vh
+}
+
+section .air.air1 {
+  animation: wave 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+
+section .air.air2 {
+  animation: wave2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 1.389vh;
+}
+
+section .air.air3 {
+  animation: wave 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 2.083vh;
+}
+
+section .air.air4 {
+  animation: wave2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 2.778vh;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 0vh;
+  }
+
+  100% {
+    background-position-x: 138.889vh;
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    background-position-x: 0vh;
+  }
+
+  100% {
+    background-position-x: -138.889vh;
+  }
+}
+
+.bgmove {
+  position: absolute;
+  top: 30%;
+  /* Adjust as needed */
+  left: 50%;
+  /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  /* Center the element precisely */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homediv {
+  opacity: 0.95;
+  font-size: 2.222vh;
+  background-color: aliceblue;
+  border: 0.694vh solid #000;
+  border-radius: 1.389vh;
+  width: 90%;
+  /* Adjust the width as desired */
+  height: 70%;
+  /* Adjust the height as desired */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    background-position: left top;
+  }
+
+  25% {
+    background-position: right bottom;
+  }
+
+  50% {
+    background-position: left bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
+}
+
+/* Apply the glitch effect only to div elements with the "glitch-effect" class */
+.glitch-effect {
+  animation: glitch 5s linear infinite;
+  font-size: 5.556vh;
+  position: absolute;
+  top: 50vh;
+  left: 9.722vh;
+  color: white;
+  font-family: creeps;
+}
+
+@keyframes glitch {
+
+  2%,
+  64% {
+    transform: translate(0.417vh, 0) skew(0deg);
+  }
+
+  4%,
+  60% {
+    transform: translate(-0.417vh, 0) skew(0deg);
+  }
+
+  62% {
+    transform: translate(0, 0) skew(15deg);
+  }
+}
+
+.glitch-effect:before,
+.glitch-effect:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.glitch-effect:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop {
+
+  2%,
+  64% {
+    transform: translate(0.278vh, -0.278vh);
+  }
+
+  4%,
+  60% {
+    transform: translate(-0.278vh, 0.278vh);
+  }
+
+  62% {
+    transform: translate(1.806vh, -0.139vh) skew(-13deg);
+  }
+}
+
+.glitch-effect:after {
+  animation: glitchBottom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBottom {
+
+  2%,
+  64% {
+    transform: translate(-0.278vh, 0);
+  }
+
+  4%,
+  60% {
+    transform: translate(-0.278vh, 0);
+  }
+
+  62% {
+    transform: translate(-3.056vh, 0.694vh) skew(21deg);
+  }
+}
