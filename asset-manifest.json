@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/himanshu.gg/static/css/main.2ea286eb.css",
-    "main.js": "/himanshu.gg/static/js/main.73d7ea4d.js",
+    "main.js": "/himanshu.gg/static/js/main.6fc4fa73.js",
     "static/media/vector-abstract-lines-pattern-waves-2386132.jpg": "/himanshu.gg/static/media/vector-abstract-lines-pattern-waves-2386132.29da22a6ebff02e8ca4e.jpg",
     "static/media/ShadowsIntoLight-Regular.ttf": "/himanshu.gg/static/media/ShadowsIntoLight-Regular.e8c09384ff0643bf385d.ttf",
     "static/media/Cookie-Regular.ttf": "/himanshu.gg/static/media/Cookie-Regular.063fc3ec8398f168926a.ttf",
     "static/media/adam-warren-pro.bold.ttf": "/himanshu.gg/static/media/adam-warren-pro.bold.4a880b1751ec85aeae63.ttf",
     "index.html": "/himanshu.gg/index.html",
     "main.2ea286eb.css.map": "/himanshu.gg/static/css/main.2ea286eb.css.map",
-    "main.73d7ea4d.js.map": "/himanshu.gg/static/js/main.73d7ea4d.js.map"
+    "main.6fc4fa73.js.map": "/himanshu.gg/static/js/main.6fc4fa73.js.map"
   },
   "entrypoints": [
     "static/css/main.2ea286eb.css",
-    "static/js/main.73d7ea4d.js"
+    "static/js/main.6fc4fa73.js"
   ]
 }
